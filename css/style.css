@@ -8,17 +8,27 @@ h1 {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+p {
+    text-align: justify;
+}
+
+.top-banner{
+    background-image: url(../images/top-banner-bg.png);
+    height: 650px;
 }
 
 .banner-area {
-    background-image: url(../images/top-banner-bg.png);
-    height: 650px;
     display: flex;
+    margin-bottom: 50px;
 }
 
-.top-banner {
+.half-width {
     width: 50%;
+    padding: 0 30px;
 }
 
 .text-area {
@@ -29,8 +39,14 @@ h3 {
 
 .read-more {
     color: white;
-    background-color: blue;
+    font-weight: 800;
+    background-color: #4040cc;
     padding: 15px 25px;
     border: none;
     border-radius: 5px;
 }
+
+.intro-image {
+    width: 90%;
+}
+
