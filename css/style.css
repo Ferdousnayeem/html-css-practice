@@ -1,0 +1,36 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 54px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.banner-area {
+    background-image: url(../images/top-banner-bg.png);
+    height: 650px;
+    display: flex;
+}
+
+.top-banner {
+    width: 50%;
+}
+
+.text-area {
+    margin-top: 15%;
+    padding-right: 3%;
+    color: white;
+}
+
+.read-more {
+    color: white;
+    background-color: blue;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+}
